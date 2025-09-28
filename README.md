@@ -40,3 +40,8 @@ source install/setup.bash
 ros2 launch my_robot_description my_robot.launch.py
 ```
 
+## URDF Tree
+![URDF Tree](my_robot-1.png)
+
+Видео запуска: [Смотреть видео](videos/demo.mp4)
+
