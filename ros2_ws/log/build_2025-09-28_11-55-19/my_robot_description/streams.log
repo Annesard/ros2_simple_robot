@@ -1,0 +1,35 @@
+[1.258s] Invoking command in '/home/anessard/ros2_ws/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anessard/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_description build --build-base /home/anessard/ros2_ws/build/my_robot_description/build install --record /home/anessard/ros2_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
+[1.596s] running egg_info
+[1.596s] creating ../build/my_robot_description/my_robot_description.egg-info
+[1.624s] writing ../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[1.624s] writing dependency_links to ../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[1.624s] writing requirements to ../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[1.624s] writing top-level names to ../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[1.624s] writing manifest file '../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.680s] reading manifest file '../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.681s] writing manifest file '../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.681s] running build
+[1.681s] running build_py
+[1.681s] creating /home/anessard/ros2_ws/build/my_robot_description/build
+[1.681s] creating /home/anessard/ros2_ws/build/my_robot_description/build/lib
+[1.681s] creating /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description
+[1.681s] copying my_robot_description/__init__.py -> /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description
+[1.681s] copying my_robot_description/robot_controller.py -> /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description
+[1.682s] running install
+[1.689s] running install_lib
+[1.715s] creating /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.715s] copying /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.716s] copying /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description/robot_controller.py -> /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.716s] byte-compiling /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py to __init__.cpython-312.pyc
+[1.716s] byte-compiling /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/robot_controller.py to robot_controller.cpython-312.pyc
+[1.717s] running install_data
+[1.717s] creating /home/anessard/ros2_ws/install/my_robot_description/share/ament_index
+[1.717s] creating /home/anessard/ros2_ws/install/my_robot_description/share/ament_index/resource_index
+[1.717s] creating /home/anessard/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[1.717s] copying resource/my_robot_description -> /home/anessard/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[1.718s] copying package.xml -> /home/anessard/ros2_ws/install/my_robot_description/share/my_robot_description
+[1.718s] running install_egg_info
+[1.746s] Copying ../build/my_robot_description/my_robot_description.egg-info to /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info
+[1.746s] running install_scripts
+[1.915s] writing list of installed files to '/home/anessard/ros2_ws/build/my_robot_description/install.log'
+[1.941s] Invoked command in '/home/anessard/ros2_ws/my_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anessard/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_description build --build-base /home/anessard/ros2_ws/build/my_robot_description/build install --record /home/anessard/ros2_ws/build/my_robot_description/install.log --single-version-externally-managed install_data

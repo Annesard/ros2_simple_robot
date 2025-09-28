@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000853] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.099566] (-) TimerEvent: {}
+[0.199933] (-) TimerEvent: {}
+[0.300231] (-) TimerEvent: {}
+[0.400526] (-) TimerEvent: {}
+[0.500733] (-) TimerEvent: {}
+[0.601016] (-) TimerEvent: {}
+[0.701315] (-) TimerEvent: {}
+[0.801621] (-) TimerEvent: {}
+[0.901947] (-) TimerEvent: {}
+[1.002246] (-) TimerEvent: {}
+[1.102544] (-) TimerEvent: {}
+[1.202854] (-) TimerEvent: {}
+[1.303144] (-) TimerEvent: {}
+[1.403467] (-) TimerEvent: {}
+[1.463449] (my_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_robot_description', 'build', '--build-base', '/home/anessard/ros2_ws/build/my_robot_description/build', 'install', '--record', '/home/anessard/ros2_ws/build/my_robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anessard/ros2_ws/my_robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:10809/', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'anessard', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/anessard', 'OLDPWD': '/home/anessard/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2670', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:10809/', 'COLCON_PREFIX_PATH': '/home/anessard/ros2_ws/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'anessard', 'http_proxy': 'http://127.0.0.1:10809/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anessard', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/bin:/home/anessard/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anessard-Mi-Laptop-Pro-15-2020:@/tmp/.ICE-unix/2627,unix/anessard-Mi-Laptop-Pro-15-2020:/tmp/.ICE-unix/2627', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7bbda265_99e7_453d_bee2_936da9342703', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MAEPD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anessard/ros2_ws/install/my_robot_description:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anessard/ros2_ws/build/my_robot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anessard/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:/home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'HTTP_PROXY': 'http://127.0.0.1:10809/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_cmake_vendor'}, 'shell': False}
+[1.503614] (-) TimerEvent: {}
+[1.603913] (-) TimerEvent: {}
+[1.704208] (-) TimerEvent: {}
+[1.804504] (-) TimerEvent: {}
+[1.904772] (-) TimerEvent: {}
+[1.942999] (my_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.979222] (my_robot_description) StdoutLine: {'line': b'writing ../build/my_robot_description/my_robot_description.egg-info/PKG-INFO\n'}
+[1.979534] (my_robot_description) StdoutLine: {'line': b'writing dependency_links to ../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt\n'}
+[1.979843] (my_robot_description) StdoutLine: {'line': b'writing entry points to ../build/my_robot_description/my_robot_description.egg-info/entry_points.txt\n'}
+[1.980099] (my_robot_description) StdoutLine: {'line': b'writing requirements to ../build/my_robot_description/my_robot_description.egg-info/requires.txt\n'}
+[1.980287] (my_robot_description) StdoutLine: {'line': b'writing top-level names to ../build/my_robot_description/my_robot_description.egg-info/top_level.txt\n'}
+[2.004864] (-) TimerEvent: {}
+[2.055623] (my_robot_description) StdoutLine: {'line': b"reading manifest file '../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'\n"}
+[2.056909] (my_robot_description) StdoutLine: {'line': b"writing manifest file '../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'\n"}
+[2.057188] (my_robot_description) StdoutLine: {'line': b'running build\n'}
+[2.057328] (my_robot_description) StdoutLine: {'line': b'running build_py\n'}
+[2.057504] (my_robot_description) StdoutLine: {'line': b'copying my_robot_description/robot_controller.py -> /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description\n'}
+[2.057724] (my_robot_description) StdoutLine: {'line': b'running install\n'}
+[2.067427] (my_robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.105009] (-) TimerEvent: {}
+[2.105203] (my_robot_description) StdoutLine: {'line': b'copying /home/anessard/ros2_ws/build/my_robot_description/build/lib/my_robot_description/robot_controller.py -> /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description\n'}
+[2.105891] (my_robot_description) StdoutLine: {'line': b'byte-compiling /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/robot_controller.py to robot_controller.cpython-312.pyc\n'}
+[2.107285] (my_robot_description) StdoutLine: {'line': b'running install_data\n'}
+[2.107537] (my_robot_description) StdoutLine: {'line': b'copying package.xml -> /home/anessard/ros2_ws/install/my_robot_description/share/my_robot_description\n'}
+[2.107795] (my_robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.147026] (my_robot_description) StdoutLine: {'line': b'Copying ../build/my_robot_description/my_robot_description.egg-info to /home/anessard/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-1.0.0-py3.12.egg-info\n'}
+[2.148231] (my_robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.205144] (-) TimerEvent: {}
+[2.305427] (-) TimerEvent: {}
+[2.397678] (my_robot_description) StdoutLine: {'line': b'Installing robot_controller script to /home/anessard/ros2_ws/install/my_robot_description/lib/my_robot_description\n'}
+[2.397975] (my_robot_description) StdoutLine: {'line': b'Installing simple_controller script to /home/anessard/ros2_ws/install/my_robot_description/lib/my_robot_description\n'}
+[2.398161] (my_robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/anessard/ros2_ws/build/my_robot_description/install.log'\n"}
+[2.405543] (-) TimerEvent: {}
+[2.459827] (my_robot_description) CommandEnded: {'returncode': 0}
+[2.478855] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[2.483742] (-) EventReactorShutdown: {}

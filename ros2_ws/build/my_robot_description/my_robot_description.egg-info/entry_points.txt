@@ -1,0 +1,2 @@
+[console_scripts]
+robot_controller = my_robot_description.robot_controller:main

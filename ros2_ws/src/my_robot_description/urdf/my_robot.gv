@@ -1,0 +1,14 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"middle_link" [label="middle_link"];
+"upper_link" [label="upper_link"];
+"effector_link" [label="effector_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "base_to_middle" [label="xyz: 0 0 0.2 \nrpy: 0 -0 0"]
+"base_to_middle" -> "middle_link"
+"middle_link" -> "middle_to_upper" [label="xyz: 0 0 0.3 \nrpy: 0 -0 0"]
+"middle_to_upper" -> "upper_link"
+"upper_link" -> "upper_to_effector" [label="xyz: 0 0 0.2 \nrpy: 0 -0 0"]
+"upper_to_effector" -> "effector_link"
+}

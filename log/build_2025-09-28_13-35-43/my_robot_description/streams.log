@@ -1,0 +1,44 @@
+[1.456s] Invoking command in '/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/ros2_ws/src/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_description build --build-base /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build install --record /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/install.log --single-version-externally-managed install_data
+[1.946s] running egg_info
+[1.946s] creating ../../../build/my_robot_description/my_robot_description.egg-info
+[1.982s] writing ../../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[1.983s] writing dependency_links to ../../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[1.983s] writing entry points to ../../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt
+[1.983s] writing requirements to ../../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[1.983s] writing top-level names to ../../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[1.984s] writing manifest file '../../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[2.057s] reading manifest file '../../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[2.058s] writing manifest file '../../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[2.058s] running build
+[2.058s] running build_py
+[2.059s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build
+[2.059s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib
+[2.059s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib/my_robot_description
+[2.059s] copying my_robot_description/__init__.py -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib/my_robot_description
+[2.059s] copying my_robot_description/robot_controller.py -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib/my_robot_description
+[2.060s] running install
+[2.069s] running install_lib
+[2.106s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[2.106s] copying /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[2.107s] copying /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build/lib/my_robot_description/robot_controller.py -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[2.107s] byte-compiling /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py to __init__.cpython-312.pyc
+[2.108s] byte-compiling /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/robot_controller.py to robot_controller.cpython-312.pyc
+[2.109s] running install_data
+[2.109s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/ament_index
+[2.109s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/ament_index/resource_index
+[2.109s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/ament_index/resource_index/packages
+[2.109s] copying resource/my_robot_description -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/ament_index/resource_index/packages
+[2.109s] copying package.xml -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description
+[2.110s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/launch
+[2.110s] copying launch/my_robot.launch.py -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/launch
+[2.110s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/urdf
+[2.110s] copying urdf/minimal.urdf -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/urdf
+[2.110s] copying urdf/my_robot.urdf -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/urdf
+[2.110s] creating /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/config
+[2.110s] copying config/view_robot.rviz -> /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/share/my_robot_description/config
+[2.111s] running install_egg_info
+[2.149s] Copying ../../../build/my_robot_description/my_robot_description.egg-info to /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-1.0.0-py3.12.egg-info
+[2.150s] running install_scripts
+[2.385s] Installing robot_controller script to /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/my_robot_description
+[2.385s] writing list of installed files to '/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/install.log'
+[2.426s] Invoked command in '/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/ros2_ws/src/my_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_description build --build-base /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/build install --record /home/anessard/Documents/masters 2025/dynamics/ros2_homework/ros2_simple_robot/build/my_robot_description/install.log --single-version-externally-managed install_data
